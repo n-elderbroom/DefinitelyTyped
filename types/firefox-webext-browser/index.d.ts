@@ -4673,7 +4673,7 @@ declare namespace browser.webRequest {
         /** True if host uses Strict Transport Security and state is "secure". */
         hsts?: boolean;
         /** True if host uses Public Key Pinning and state is "secure". */
-        hpkp?: string;
+        hpkp?: boolean;
         /** list of reasons that cause the request to be considered weak, if state is "weak" */
         weaknessReasons?: TransportWeaknessReasons[];
     }
